@@ -16,6 +16,7 @@
  */
 html,
 body {
+  width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -33,6 +34,8 @@ body {
   font-family: "Roboto", "sans-serif";
   line-height: 30px;
   padding-left: 10px;
+  display: none;   /*This toggles the visibility of the floating panel*/
+
 }
 
 #pano {
